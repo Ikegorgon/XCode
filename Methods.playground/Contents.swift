@@ -35,3 +35,53 @@ while (test < counting()) {
     print ("hahaha")
     test += 1
 }
+
+
+
+var notesToday = "Using Swift to make classes and methods"
+public class SimpleClass {
+    private var name : String
+    
+    public init() {
+        name = "My name is... "
+    }
+    public func getName() -> String {
+        return name
+    }
+}
+
+var sample = SimpleClass()
+print (sample.getName())
+
+public class OtherClass {
+    private var favoriteNumber : Int
+    private var favoriteWord : String
+    
+    public init() {
+        favoriteNumber = Int()
+        favoriteWord = String()
+        
+    }
+    public init(favoriteNumber : Int, favoriteWord : String) {
+        self.favoriteNumber = favoriteNumber
+        self.favoriteWord = favoriteWord
+        
+    }
+    public func changeInternalState() -> Void {
+        self.favoriteNumber *= 12
+        self.favoriteWord += " and more and more"
+    }
+}
+
+var secondClass = OtherClass()
+var thirdSample = OtherClass(favoriteNumber: 17, favoriteWord: "Moist")
+
+print (secondClass)
+print (thirdSample)
+
+secondClass.changeInternalState()
+thirdSample.changeInternalState()
+
+print (secondClass)
+print (thirdSample)
+
