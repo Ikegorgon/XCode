@@ -2,5 +2,15 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/ilam9372/XCode/GUI%20Yay.playground#CharacterRangeLen=52&amp;CharacterRangeLoc=1020&amp;EndingColumnNumber=0&amp;EndingLineNumber=24&amp;StartingColumnNumber=1&amp;StartingLineNumber=23&amp;Timestamp=528836813.69593"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/ilam9372/XCode/GUI%20Yay.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=995&amp;EndingColumnNumber=13&amp;EndingLineNumber=22&amp;StartingColumnNumber=1&amp;StartingLineNumber=22&amp;Timestamp=528836813.696093"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
