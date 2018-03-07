@@ -19,10 +19,11 @@ mySecondButton.setTitleColor(UIColor.black, for: .normal)
 mySecondButton.backgroundColor = .yellow
 
 var myFirstLabel = UILabel(frame: CGRect(x: 100, y: 100, width: 200, height: 50))
-var text: "Fried Chicken"
+var text = "Fried Chicken"
 myFirstLabel.text = text
-myFirstLabel.textAlignment = NSTextAlignment{center}
+myFirstLabel.textAlignment = NSTextAlignment.center
 var mySecondLabel = UILabel (frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+
 var myFirstDatePicker = UIDatePicker(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
 
 myFirstView.sizeToFit()
